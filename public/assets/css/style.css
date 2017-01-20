@@ -1,0 +1,188 @@
+body{
+
+	background-color: white;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+}
+
+#map{
+    height: 250px;
+    width: 80%;
+    margin: auto;
+    border-radius: 0px;
+    padding: 10px;
+    border-style: double;
+    border-color: white;
+    display: block;
+
+ 
+}
+ 
+
+ main {
+    flex: 1 0 auto;
+  }
+
+input{
+	text-align: center;
+}
+
+
+.panel-headers{
+	text-align: center;
+	
+}
+
+
+
+.panel-paragraphs{
+	text-align: center;
+
+}
+
+.card-panel.light-grey{
+	background-color: #dbdbdb;
+	/*margin-top: 0;
+	margin-bottom: 0;*/
+}
+
+
+
+nav .nav-wrapper{
+	background-color: #d82020;
+}
+nav .brand-logo {
+	padding-left: 10px !important;
+}
+.brand-logo {
+	font-family: 'Ranga', cursive;
+
+}
+
+/*.card {
+	margin-top: 25px !important;
+
+}*/
+
+
+.card .card-content{
+	background-color: #d82020 !important;
+	color: white;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 50px !important;
+	padding-bottom: 50px !important;
+	font-size: 35px;
+
+}
+
+.card .card-action{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+.waves-effect.waves-light.btn{
+	background-color: #d82020;
+	text-align: : center;
+	font-family: 'Roboto', sans-serif;
+}
+
+#signinForm {
+    background-color: lightgray;
+    margin-top: 5%;
+    
+
+}
+
+
+
+input[type=text],input[type=password] {
+   
+    border: 1px solid #a9a9a9 !important;
+  
+}
+
+#elements_inside_form{
+    color: black;
+}
+
+
+label {
+    color: black !important;
+}
+
+#login_btn{
+   background-color: #d82020;
+    text-align: : center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    width: 50%;
+    margin-bottom: 2%;
+}
+
+[type="checkbox"]+label{
+    margin-bottom: 2%;
+}
+
+footer.page-footer{
+	background-color: #d82020 !important;
+}
+
+/*
+CSS for the return to top arrow which appears after a certain point in the page has been reached.
+*/
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+
+
+input[type=text],input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+

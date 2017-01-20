@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<title>Save a Life</title>
+	<meta name="viewport" content="width=device-width"> <!--Viewport for mobile view-->
+	
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ranga" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+	</script>
+
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+</head>
+<body>
+
+
+  <nav>
+    <div class="nav-wrapper">
+      <a href="index.html" class="brand-logo">Save A Life</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="large material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="signin.html">Sign In</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+        <li><a href="sass.html">Contact Us</a></li>
+      
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="signin.html">Sign In</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+        <li><a href="sass.html">Contact Us</a></li>
+        
+      </ul>
+    </div>
+  </nav>
+
+
+<div class="container">
+
+
+      <div class="row">
+        <div class="col s12 m12 l12">
+          <div class="card">
+            <div class="card-content">
+              
+              
+              <p>Welcome To Save A Life</p>
+              <h5>An Emergency Communication System</h5>
+            </div>
+            <div class="card-action">
+               
+              <a href="signin.html" class="waves-effect waves-light btn"><i class="material-icons right">account_box</i>Click Here to Log In</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      
+</div>
+
+
+
+
+
+      
+<div class="card-panel light-grey">
+<h4 class="panel-headers">Current Status: All Clear</h4>
+<p class="panel-paragraphs">"Currently there are no emergency situations in your area. If the
+situation changes we will update the site and send out a notification."</p>
+
+        <div id="map"></div>
+
+        </div>
+      
+<div class="card-panel light-grey">
+<h4 class="panel-headers">1-800-123-4567</h4>
+<p class="panel-paragraphs">"Please contact 911 first. If you would like to report an emergency, Please call our emergency hotline."</p>
+</div>
+
+
+
+<footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Created By Yavi Padilla</h5>
+             
+                  <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Github</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">LinkedIn</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Slack</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Email</a></li>
+                  
+                </ul>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Sign Up</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Sign In</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Contact Us</a></li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            EOY LLC 2017© 
+            
+            </div>
+          </div>
+        </footer>
+
+
+
+<a href="javascript:" id="return-to-top"><i class="large material-icons">keyboard_arrow_up</i></a>
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+
+<script type="text/javascript">
+$( document ).ready(function(){
+
+	 $(".button-collapse").sideNav();
+        
+})
+      
+$(window).scroll(function() {
+    if ($(this).scrollTop() >= 200) {        // If page is scrolled more than 50px
+        $('#return-to-top').fadeIn(200);    // Fade in the arrow
+    } else {
+        $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+    }
+});
+$('#return-to-top').click(function() {      // When arrow is clicked
+    $('body,html').animate({
+        scrollTop : 0                       // Scroll to top of body
+    }, 500);
+});
+
+  </script>
+
+
+ <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZKR3YD85re6NPj2gFlDftsWV6-GG1D0E&callback=initMap">
+    </script>
+<script type="text/javascript" src="assets/js/app.js"></script>
+
+</body>
+</html>

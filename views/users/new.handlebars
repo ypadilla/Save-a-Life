@@ -1,0 +1,30 @@
+<!--main content-->
+    <main>
+      <div class="row">
+            <div class="col s12 m12 l12 center-align" id="signinForm">
+            <h4>Sign Up</h4>
+                <form id="elements_inside_form" action="/users/create" method="POST">
+                    <label><b>Create Username</b></label>
+                    <input type="text" placeholder="" id="em" name="email"required>
+
+                    <label><b>Create Password</b></label>
+                    <input type="password" placeholder="" name="psw" required>
+
+                    <label><b>Re-Enter Password</b></label>
+                    <input type="password" placeholder="" id="pass" name="password" required>
+
+                    <button class="waves-effect btn-flat" id="login_btn" type="submit">Submit</button>
+
+                      
+                    <div>
+                        <input type="checkbox" id="rememberbox" checked="checked" />
+                        <label for="test6">Remember Me</label>
+                        <!--  <span class="psw">Forgot <a href="#">password?</a></span>
+                        <label></label> -->
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <!--main content-->
